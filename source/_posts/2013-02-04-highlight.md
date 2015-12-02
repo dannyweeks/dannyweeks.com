@@ -33,10 +33,15 @@ You can use either `~` or <code>`</code> to mark them.
 
 [fcb]: http://michelf.ca/projects/php-markdown/extra/#fenced-code-blocks
 
+## This is something!
+
 ~~~php
 if ($fencedCodeBlock->syntax !== 'PHP') {
     throw new UnexpectedValueException("wat");
 }
 ~~~
+
+### Ok now what
+
 Like this addition to the skeleton? You can thank for [@Pawka](https://github.com/Pawka)
 for suggesting it. :)

@@ -101,6 +101,8 @@
         <script>window.jQuery || document.write('<script src="{{ site.url }}/components/jquery/jquery.min.js"><\/script>')</script>
         <script src="{{ site.url }}/components/foundation/js/foundation.min.js"></script>
         <script src="{{ site.url }}/components/masonry/masonry.pkgd.js"></script>
+        <script src="{{ site.url }}/components/highlightjs/highlight.pack.js"></script>
+        <script src="{{ site.url }}/js/all.js"></script>
         {% block scripts %}
         {% endblock %}
 
@@ -116,20 +118,6 @@
             ga('send', 'pageview');
         </script>
         {% endif %}
-        <script src="{{ site.url }}/components/highlightjs/highlight.pack.js"></script>
-        <script>
-            hljs.initHighlightingOnLoad();
-            $(document).foundation();
-            $(window).load(function(){
-
-                $('#masonry-container').masonry({
-
-                    itemSelector: '#masonry-container .column'
-
-                });
-
-            });
-        </script>
 
         {% block scripts_after %}
         {% endblock %}

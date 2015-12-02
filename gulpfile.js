@@ -6,7 +6,7 @@ var sassPaths = [
 ];
 
 gulp.task('sass', function() {
-  return gulp.src('./scss/app.scss')
+  return gulp.src('./assets/scss/app.scss')
     .pipe($.sass({
       includePaths: sassPaths
     })
@@ -17,6 +17,17 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./source/css'));
 });
 
-gulp.task('default', ['sass'], function() {
-  gulp.watch(['./scss/**/*.scss'], ['sass']);
+gulp.task('scripts', function() {
+    var sources = [
+        './node_modules/anchor-js/anchor.js',
+        './assets/javascript/app.js',
+    ];
+    return gulp.src(sources)
+        .pipe($.concat('all.js'))
+        .pipe(gulp.dest('./source/js/'));
+});
+
+gulp.task('default', ['sass', 'scripts'], function() {
+  gulp.watch(['./assets/scss/**/*.scss'], ['sass']);
+  gulp.watch(['./assets/javascript/**/*.js'], ['scripts']);
 });

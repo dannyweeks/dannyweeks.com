@@ -5173,7 +5173,7 @@ table.hover tr:nth-of-type(even):hover {
 .margin-top {
   margin-top: 1rem; }
 
-article h2 {
+article h1, article h2, article h3, article h4 {
   color: #3e5771; }
 
 .article-card {

@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 @import 'settings';
-@import '../source/components/foundation/scss/foundation';
+@import '../../source/components/foundation/scss/foundation';
 
 $fa-font-path: "/components/font-awesome/fonts";
-@import '../.sculpin/components/font-awesome/scss/font-awesome';
+@import '../../.sculpin/components/font-awesome/scss/font-awesome';
 //@import 'motion-ui';
 
 @include foundation-global-styles;
