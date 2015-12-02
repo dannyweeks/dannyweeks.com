@@ -1,0 +1,27 @@
+#footer{
+  color: white;
+
+  #upper-footer{
+    padding: 1.25rem 0 0 0;
+    background-color: $lightBackgroundColor;
+  }
+
+  #lower-footer{
+    background-color: $backgroundColor;
+  }
+
+  .author{
+
+    img{
+      margin: $margin-default 0;
+      border-radius: 50%;
+      border: 2px solid $primary-color;
+    }
+
+    .button.hollow{
+      border: 1px solid #fff;
+      color: #fff;
+    }
+  }
+
+}

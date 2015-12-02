@@ -1,0 +1,81 @@
+---
+layout: default
+generator: pagination
+pagination:
+    max_per_page: 9
+use:
+    - posts
+---
+<div id="masonry-container" class="row small-up-1 medium-up-2 large-up-3">
+    {% for post in page.pagination.items %}
+    <div class="column">
+
+        <article class="article-card text-center">
+            <a href="{{ post.url }}">
+                {% if post.featured_image %}
+                    <img src="/images/uploads/{{ post.date|date('Y/m') }}/{{ post.featured_image }}" alt=""/>
+                {% else %}
+                    <div class="no-image"></div>
+                {% endif %}
+            </a>
+
+            <div class="card-content">
+                <div>
+                    {% for category in post.categories %}
+
+                    <span class="fa-stack fa-2x fa-lg category-icon {{ category|replace({' ': '-', '&': ''})|lower }}-icon">
+                        <i class="background-icon fa fa-circle fa-stack-2x"></i>
+                        <i class="main-icon fa fa-category-{{ category|replace({' ': '-', '&': ''})|lower }} fa-stack-1x fa-inverse"></i>
+                    </span>
+
+                    {% endfor %}
+                </div>
+
+                <h4>
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                    <br/>
+                    <small>
+                        {{ post.date|date('dS M, Y') }}
+                    </small>
+                </h4>
+                <p>
+                    {{ post.blocks.content|raw|striptags|slice(0,200) }} &hellip;
+                </p>
+                <p>
+                    <a href="{{ post.url }}" class="button hollow small">
+                        Read More &rarr;
+                    </a>
+
+                </p>
+                {% if post.categories %}
+                <p class="categories">
+                    Posted in
+                    {% for category in post.categories %}
+                    <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </p>
+                {% endif %}
+            </div>
+        </article>
+
+    </div>
+    {% endfor %}
+</div>
+
+{% if page.pagination.previous_page or page.pagination.next_page %}
+    <ul class="pagination text-center" role="navigation" aria-label="Pagination">
+
+        {% if page.pagination.next_page %}
+            <li class="pagination-previous">
+                <a class="previous" href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts</a>
+            </li>
+        {% endif %}
+        {% if page.pagination.previous_page %}
+        <li class="pagination-next">
+            <a class="next" href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts</a>
+        </li>
+        {% endif %}
+    </ul>
+{% endif %}
