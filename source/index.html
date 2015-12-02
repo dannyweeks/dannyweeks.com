@@ -13,7 +13,11 @@ use:
         <article class="article-card text-center">
             <a href="{{ post.url }}">
                 {% if post.featured_image %}
-                    <img src="/images/uploads/{{ post.date|date('Y/m') }}/{{ post.featured_image }}" alt=""/>
+                    {% if post.draft %}
+                        <img src="/images/uploads/drafts/{{ post.featured_image }}" alt=""/>
+                    {% else %}
+                        <img src="/images/uploads/{{ post.date|date('Y/m') }}/{{ post.featured_image }}" alt=""/>
+                    {% endif %}
                 {% else %}
                     <div class="no-image"></div>
                 {% endif %}
@@ -54,6 +58,11 @@ use:
                     Posted in
                     {% for category in post.categories %}
                     <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </p>
+                <p class="tags">
+                    {% for tag in post.tags %}
+                        {% include 'tag' with {'tag': tag} %}
                     {% endfor %}
                 </p>
                 {% endif %}

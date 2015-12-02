@@ -5284,7 +5284,8 @@ header#header {
   .film-tv-icon .main-icon:before {
     content: ""; }
 
-.photography-icon .background-icon { }
+.photography-icon .background-icon {
+  color: #EB9532; }
 
 .photography-icon .main-icon { }
   .photography-icon .main-icon:before {
