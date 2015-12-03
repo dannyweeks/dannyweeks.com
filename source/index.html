@@ -41,7 +41,7 @@ use:
                     </a>
                     <br/>
                     <small>
-                        {{ post.date|date('dS M, Y') }}
+                        {{ post.date|date('jS M, Y') }}
                     </small>
                 </h4>
                 <p>
@@ -51,7 +51,6 @@ use:
                     <a href="{{ post.url }}" class="button hollow small">
                         Read More &rarr;
                     </a>
-
                 </p>
                 {% if post.categories %}
                 <p class="categories">
