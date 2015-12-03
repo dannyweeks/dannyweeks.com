@@ -5,3 +5,12 @@ img[alt="spoiler"]{
 .spoiler-image{
   cursor: pointer;
 }
+
+.spoiler{
+  color: $body-font-color;
+  background-color: $body-font-color;
+  &:hover{
+    background-color: white;
+    color: $body-font-color;
+  }
+}

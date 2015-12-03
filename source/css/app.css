@@ -5311,5 +5311,12 @@ img[alt="spoiler"] {
 .spoiler-image {
   cursor: pointer; }
 
+.spoiler {
+  color: #0a0a0a;
+  background-color: #0a0a0a; }
+  .spoiler:hover {
+    background-color: white;
+    color: #0a0a0a; }
+
 .gallery-thumb {
   cursor: pointer; }
