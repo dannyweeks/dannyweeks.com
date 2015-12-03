@@ -21,6 +21,7 @@ gulp.task('scripts', function() {
     var sources = [
         './node_modules/anchor-js/anchor.js',
         './assets/javascript/gallery.js',
+        './assets/javascript/spoilers.js',
         './assets/javascript/app.js',
     ];
     return gulp.src(sources)

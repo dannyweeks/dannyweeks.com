@@ -5305,5 +5305,11 @@ header#header {
   .projects-icon .main-icon:before {
     content: ""; }
 
+img[alt="spoiler"] {
+  display: none; }
+
+.spoiler-image {
+  cursor: pointer; }
+
 .gallery-thumb {
   cursor: pointer; }

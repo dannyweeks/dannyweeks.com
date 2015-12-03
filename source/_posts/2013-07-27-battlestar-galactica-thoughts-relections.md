@@ -7,3 +7,4 @@ tags:
     - Battlestar Galactica
     - scifi
 ---
+![spoiler](http://placehold.it/100x100)
