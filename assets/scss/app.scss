@@ -53,3 +53,7 @@ $fa-font-path: "/components/font-awesome/fonts";
 @import 'partials/footer';
 @import 'partials/categories';
 @import 'partials/blog/recent-posts';
+
+.gallery-thumb{
+  cursor: pointer;
+}

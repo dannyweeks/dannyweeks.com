@@ -5297,3 +5297,6 @@ header#header {
 .projects-icon .main-icon { }
   .projects-icon .main-icon:before {
     content: ""; }
+
+.gallery-thumb {
+  cursor: pointer; }
