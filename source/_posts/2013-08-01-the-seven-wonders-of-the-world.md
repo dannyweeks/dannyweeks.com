@@ -54,7 +54,7 @@ You name it, there is a 7 Wonders for it, Modern World, Underwater World, Indust
 [enceladus]: /images/uploads/2013/08/Enceladus.jpg
 [red-spot]: /images/uploads/2013/08/redspot.jpg
 [asteroid-belt]: /images/uploads/2013/08/asteroid-belt.jpg
-[sun]: /images/uploads/2013/08/redspot.jpg
+[sun]: /images/uploads/2013/08/sun.jpg
 [oceans]: /images/uploads/2013/08/oceans.jpg
 [rings]: /images/uploads/2013/08/Saturn.jpg
 [olympus-mons]: /images/uploads/2013/08/Olympus-Mons.jpg
