@@ -248,22 +248,6 @@ function AnchorJS(options) {
 
 var anchors = new AnchorJS();
 
-anchors.add('.main h2, .main h3');
-
-hljs.initHighlightingOnLoad();
-
-$(document).foundation();
-
-$(window).load(function () {
-
-    $('#masonry-container').masonry({
-
-        itemSelector: '#masonry-container .column'
-
-    });
-
-});
-
 
 $(window).load(function () {
 
@@ -311,5 +295,20 @@ $('.gallery-thumb').on('click', function () {
     var src = img.attr('src');
     $('#gallery-modal > img').attr('src', src);
     $('#gallery-modal').foundation('open');
+
+});
+anchors.add('.main h2, .main h3');
+
+hljs.initHighlightingOnLoad();
+
+$(document).foundation();
+
+$(window).load(function () {
+
+    $('#masonry-container').masonry({
+
+        itemSelector: '#masonry-container .column'
+
+    });
 
 });
