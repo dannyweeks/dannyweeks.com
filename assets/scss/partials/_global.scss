@@ -2,11 +2,15 @@
   margin-top: 1rem;
 }
 
-article{
-  h1, h2, h3, h4{
-    color:$lightBackgroundColor;
-  }
+
+h1, h2, h3, h4{
+  color:$lightBackgroundColor;
 }
+
+h1{
+  text-align: center;
+}
+
 
 .article-card {
   border: 1px solid #d7d7d7;

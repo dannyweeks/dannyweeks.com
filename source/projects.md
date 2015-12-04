@@ -3,6 +3,6 @@ layout: page_layout
 title: Projects
 
 ---
-## Projects
+# Projects
 
 Coming soon
