@@ -5320,3 +5320,6 @@ img[alt="spoiler"] {
 
 .gallery-thumb {
   cursor: pointer; }
+
+.reveal, .close-button {
+  outline: none; }
