@@ -27,7 +27,7 @@ First, lets add the following method to the Handler class.
 renderHttpExceptionView() adds the ability to have a default response to any HTTP error that doesn’t have a specific view.
 
 As given to us by [Matt][matt whoops], it’s time to add the good old Whoops support.
-
+{% verbatim %}
 ```php
 /**
      * Render an exception using Whoops.
@@ -36,7 +36,7 @@ As given to us by [Matt][matt whoops], it’s time to add the good old Whoops su
      * @return \Illuminate\Http\Response
      */
     protected function renderExceptionWithWhoops(Exception $e)
-    &lbrace;
+    {
         $whoops = new \Whoops\Run;
         $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler());
 
@@ -45,11 +45,12 @@ As given to us by [Matt][matt whoops], it’s time to add the good old Whoops su
             $e->getStatusCode(),
             $e->getHeaders()
         );
-    &rbrace;
+    }
 ```
+{% endverbatim %}
 
 Now to update the `render()` method!
-
+{% verbatim %}
 ```php
 /**
      * Render an exception into an HTTP response.
@@ -59,18 +60,19 @@ Now to update the `render()` method!
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $e)
-    &lbrace;
-        if ($this->isHttpException($e)) &lbrace;
+    {
+        if ($this->isHttpException($e)) {
             return $this->renderHttpExceptionView($e);
-        &rbrace;
+        }
 
-        if (config('app.debug')) &lbrace;
+        if (config('app.debug')) {
             return $this->renderExceptionWithWhoops($e);
-        &rbrace;
+        }
 
         return parent::render($request, $e);
-    &rbrace;
+    }
 ```
+{% endverbatim %}
 
 
 Finally, we just have to create `resources/views/errors/default.blade.php` to be used as our fallback. If an error message is set it will display it, otherwise it will default to use the description for the thrown HTTP status code.
