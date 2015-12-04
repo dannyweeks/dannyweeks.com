@@ -268,8 +268,9 @@ $(window).load(function () {
     });
 
     $.each(galleries, function (galleryName, gallery) {
-        var lastOccurrence = $('img[alt="' + galleryName + '"]').last();
-        lastOccurrence.after('<div class="small-12 columns"><div class="row small-up-2 medium-up-3 large-up-4" id="' + galleryName + '"></div></div>');
+        var galleryImages = $('img[alt="' + galleryName + '"]');
+        var lastOccurrence = galleryImages.last();
+        lastOccurrence.after('<div class="small-12 columns"><div class="row small-up-2 medium-up-3 large-up-4 image-gallery" id="' + galleryName + '"></div></div>');
 
         $.each(gallery, function (key, imageSrc) {
             var galleryElement = $('#' + galleryName);
@@ -282,20 +283,20 @@ $(window).load(function () {
             });
 
             galleryElement.masonry('reloadItems');
+            galleryImages.remove();
 
         });
     });
 
-    images.remove();
-
+    var galleries = $('.image-gallery[id^="gallery-"]');
+    galleries.masonry();
 });
 
-$('.gallery-thumb').on('click', function () {
+$(document).on('click', '.gallery-thumb', function () {
     var img = $(this);
     var src = img.attr('src');
     $('#gallery-modal > img').attr('src', src);
     $('#gallery-modal').foundation('open');
-
 });
 (function () {
     $('img[alt="spoiler"]').each(function (spoilerImages, spoilerImage) {
