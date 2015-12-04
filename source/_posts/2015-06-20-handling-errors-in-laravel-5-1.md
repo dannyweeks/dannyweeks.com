@@ -75,21 +75,23 @@ Now to update the `render()` method!
 
 Finally, we just have to create `resources/views/errors/default.blade.php` to be used as our fallback. If an error message is set it will display it, otherwise it will default to use the description for the thrown HTTP status code.
 
+{% verbatim %}
 ```php
 @extends('template.master')
 
 @section('content')
     <h1>
-        &lbrace;&lbrace; $exception->getStatusCode() &rbrace;&rbrace;
+        @{{ $exception->getStatusCode() }}
     </h1>
 
     <p>
         @if(!empty($exception->getMessage()))
-            &lbrace;&lbrace; $exception->getMessage() &rbrace;&rbrace;
+            @{{ $exception->getMessage() }}
         @else
-            &lbrace;&lbrace; \Symfony\Component\HttpFoundation\Response::$statusTexts[$exception->getStatusCode()] &rbrace;&rbrace;
+            @{{ \Symfony\Component\HttpFoundation\Response::$statusTexts[$exception->getStatusCode()] }}
         @endif
     </p>
 
 @endsection
 ```
+{% endverbatim %}
