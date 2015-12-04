@@ -1,0 +1,17 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    {% include "head" %}
+</head>
+<body>
+{% include "header" %}
+<div class="row">
+    <div class="medium-8 medium-centered columns">
+        {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+    </div>
+</div>
+{% include "footer" %}
+
+{% include "scripts" %}
+</body>
+</html>
