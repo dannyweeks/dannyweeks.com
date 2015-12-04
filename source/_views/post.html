@@ -42,15 +42,14 @@
                     {% endfor %}
                 </p>
                 {% endif %}
-
-                {% if page.previous_post or page.next_post %}
-                    {% include "pagination" with {"previous":page.previous_post, "previous_text":page.previous_post.title, "next":page.next_post, "next_text":page.next_post.title  } %}
-                {% endif %}
-
             </footer>
         </article>
 
         {% include "disqus" %}
+        <hr/>
+        {% if page.previous_post or page.next_post %}
+            {% include "pagination" with {"previous":page.previous_post, "previous_text":page.previous_post.title, "next":page.next_post, "next_text":page.next_post.title  } %}
+        {% endif %}
     </div>
 </div>
 
