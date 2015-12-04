@@ -1,0 +1,20 @@
+<ul class="pagination text-center" role="navigation" aria-label="Pagination">
+    {% if previous %}
+        <li class="pagination-previous">
+            <a class="previous" href="{{ site.url }}{{ previous.url }}" title="{{ previous_text }}">
+                <span class="title">
+                    {{ previous_text }}
+                </span>
+            </a>
+        </li>
+    {% endif %}
+    {% if next %}
+        <li class="pagination-next">
+            <a class="next" href="{{ site.url }}{{ next.url }}" title="{{ next_text }}">
+                <span class="title">
+                    {{ next_text }}
+                </span>
+            </a>
+        </li>
+    {% endif %}
+</ul>

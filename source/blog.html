@@ -28,14 +28,7 @@ use:
 
         <div>
             {% if page.pagination.previous_page or page.pagination.next_page %}
-            <nav class="article clearfix">
-                {% if page.pagination.previous_page %}
-                <a class="previous" href="{{ site.url }}{{ page.pagination.previous_page.url }}" title="Previous Page"><span class="title">Previous Page</span></a>
-                {% endif %}
-                {% if page.pagination.next_page %}
-                <a class="next" href="{{ site.url }}{{ page.pagination.next_page.url }}" title="Next Page"><span class="title">Next Page</span></a>
-                {% endif %}
-            </nav>
+                {% include "pagination" with {"previous":page.pagination.previous_page, "previous_text":"Previous Page", "next":page.pagination.next_page, "next_text":'Next Page'  } %}
             {% endif %}
         </div>
 
