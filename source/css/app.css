@@ -5324,5 +5324,9 @@ img[alt="spoiler"] {
 .gallery-thumb {
   cursor: pointer; }
 
+img[alt^="gallery-"] {
+  width: 150px;
+  display: inline-block; }
+
 .reveal, .close-button {
   outline: none; }

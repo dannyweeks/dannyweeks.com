@@ -54,10 +54,8 @@ $fa-font-path: "/components/font-awesome/fonts";
 @import 'partials/categories';
 @import 'partials/blog/recent-posts';
 @import 'partials/spoilers';
+@import 'partials/gallery';
 
-.gallery-thumb{
-  cursor: pointer;
-}
 
 .reveal, .close-button{
   outline: none;

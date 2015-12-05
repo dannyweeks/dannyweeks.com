@@ -1,8 +1,8 @@
 
-$(window).load(function () {
 
-    var galleries = {};
+$(window).load(function () {
     var images = $('img[alt^="gallery-"]');
+    var galleries = {};
 
     $.each(images, function (key, imageElement) {
         var image = $(imageElement);
