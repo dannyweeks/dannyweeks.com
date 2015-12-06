@@ -3,7 +3,7 @@ layout: page_layout
 title: About
 
 ---
-# About the Author or Blog
+# About Me
 
-Here is a little information about the author or the blog.
+I need to write this!
 
