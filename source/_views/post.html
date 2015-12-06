@@ -5,23 +5,32 @@
 {% endblock %}
 
 {% block content_wrapper %}
-
 <div class="row">
     <div class="medium-8 medium-centered columns">
         <article class="main">
-            <h1 class="text-center">
-                {{ page.title }}
-            </h1>
-            <p class="text-center">
-                Posted
-                {% if page.categories %}
-                in
-                {% for category in page.categories %}
-                <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
-                {% endfor %}
-                {% endif %}
-                on {{ page.date|date('dS M Y') }}
-            </p>
+            <header class="text-center">
+                <h1>
+                    {{ page.title }}
+                </h1>
+                <p>
+                    Posted
+                    {% if page.categories %}
+                    in
+                    {% for category in page.categories %}
+                    <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                    on {{ page.date|date('dS M Y') }}
+                </p>
+                {% if page.tags %}
+                <p class="tags">
+                    Tags:
+                    {% for tag in page.tags %}
+                    {% include 'tag' with {'tag': tag} %}
+                    {% endfor %}
+                </p>
+            </header>
+            {% endif %}
             {% if page.featured_image%}
             <div class="featured-image text-center">
                 <p>
@@ -34,14 +43,6 @@
             <hr/>
             <footer class="text-center">
 
-                {% if page.tags %}
-                <p class="tags">
-                    Tags:
-                    {% for tag in page.tags %}
-                        {% include 'tag' with {'tag': tag} %}
-                    {% endfor %}
-                </p>
-                {% endif %}
             </footer>
         </article>
 
