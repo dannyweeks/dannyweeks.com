@@ -3,6 +3,8 @@ title: Handling Errors In Laravel 5.1
 featured_image: whoops.png
 categories:
     - Web Dev
+tags: 
+    - laravel
 ---
 I have finally gotten around to documenting what I find to be the best setup for error handling in Laravel 5.1
 
