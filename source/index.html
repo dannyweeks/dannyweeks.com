@@ -23,9 +23,9 @@ use:
                 <div>
                     {% for category in post.categories %}
 
-                    <span class="fa-stack fa-2x fa-lg category-icon {{ category|replace({' ': '-', '&': ''})|lower }}-icon">
+                    <span class="fa-stack fa-2x fa-lg category-icon {{ category|slugify}}-icon">
                         <i class="background-icon fa fa-circle fa-stack-2x"></i>
-                        <i class="main-icon fa fa-category-{{ category|replace({' ': '-', '&': ''})|lower }} fa-stack-1x fa-inverse"></i>
+                        <i class="main-icon fa fa-category-{{ category|slugify}} fa-stack-1x fa-inverse"></i>
                     </span>
 
                     {% endfor %}
@@ -52,9 +52,11 @@ use:
                 <p class="categories">
                     Posted in
                     {% for category in post.categories %}
-                    <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
+                    <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
                     {% endfor %}
                 </p>
+                {% endif %}
+                {% if post.tags %}
                 <p class="tags">
                     {% for tag in post.tags %}
                         {% include 'tag' with {'tag': tag} %}
