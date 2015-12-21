@@ -33,9 +33,7 @@
             </header>
             {% if page.featured_image%}
             <div class="featured-image text-center">
-                <p>
-                    <img src="/images/uploads/{{ page.date|date('Y/m') }}/{{ page.featured_image }}">
-                </p>
+                {% include 'featured-image' with {'post': page} %}
             </div>
             {% endif %}
 

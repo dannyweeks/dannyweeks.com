@@ -1,0 +1,5 @@
+{% if post.draft %}
+    <img src="/images/uploads/drafts/{{ post.featured_image }}" alt=""/>
+{% else %}
+    <img src="/images/uploads/{{ post.date|date('Y/m') }}/{{ post.featured_image }}" alt=""/>
+{% endif %}
