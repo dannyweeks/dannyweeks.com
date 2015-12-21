@@ -3,6 +3,8 @@ title: Deployment Script For Production Server
 featured_image: deploy.jpg
 categories:
     - Web Dev
+tags:
+    - devops
 ---
 For a while I have wanted to have a script that deploys updates to a website cleanly and easily. I recently found the time to create such a script and am pretty happy with the first version! Having not really spent any time with creating bash scripts it took a bit of googling research to get started.
 

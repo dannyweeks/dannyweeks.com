@@ -6,6 +6,7 @@ categories:
 tags:
     - composer
     - php
+    - devops
 ---
 
 In my job I have to maintain a few servers with multiple projects. We have the old Ubuntu 12.04 running special software, two Ubuntu 14.04 servers (one is prettier than the other) and then throw in our VPS too and thats just the servers at work! Jumping between all of these was becoming tedious; a different password to remember at every turn. I had to do something for the sake of my sanity.

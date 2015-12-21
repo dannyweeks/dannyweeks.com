@@ -5,6 +5,7 @@ categories:
     - Web Dev
 tags: 
     - laravel
+    - php
 ---
 I have finally gotten around to documenting what I find to be the best setup for error handling in Laravel 5.1
 
