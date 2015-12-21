@@ -5308,6 +5308,14 @@ header#header {
   .projects-icon .main-icon:before {
     content: ""; }
 
+.gaming-icon .background-icon {
+  color: #141414; }
+
+.gaming-icon .main-icon {
+  color: #E9D460; }
+  .gaming-icon .main-icon:before {
+    content: ""; }
+
 img[alt="spoiler"] {
   display: none; }
 

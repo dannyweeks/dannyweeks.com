@@ -5,6 +5,7 @@ $categories: (
                 ("film-tv", null, null, "\f008"),
                 ("photography", "#EB9532", null, "\f030"),
                 ("projects", "#D24D57", null, "\f286"),
+                ("gaming", "#141414", "#E9D460", "\f11b"),
 );
 
 @each $category in $categories {
@@ -14,7 +15,7 @@ $categories: (
     }
     .main-icon {
       color: #{nth($category, 3)};
-      &:before{
+      &:before {
         content: "#{nth($category, 4)}";
       }
     }
