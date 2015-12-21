@@ -20,7 +20,7 @@
                     <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
                     {% endfor %}
                     {% endif %}
-                    on {{ page.date|date('dS M Y') }}
+                    on {{ page.date|date('jS M Y') }}
                 </p>
                 {% if page.tags %}
                 <p class="tags">
@@ -33,7 +33,9 @@
             </header>
             {% if page.featured_image%}
             <div class="featured-image text-center">
-                {% include 'featured-image' with {'post': page} %}
+                <p>
+                    {% include 'featured-image' with {'post': page} %}
+                </p>
             </div>
             {% endif %}
 
