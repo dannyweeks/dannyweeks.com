@@ -5217,7 +5217,8 @@ blockquote {
     font-style: italic; }
 
 header#header {
-  margin-bottom: 1.25rem; }
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid #2ecc71; }
 
 #header {
   text-align: center;
@@ -5315,6 +5316,9 @@ header#header {
   color: #E9D460; }
   .gaming-icon .main-icon:before {
     content: ""; }
+
+.article-card img, .article-card .no-image {
+  border-bottom: 2px solid #2ecc71; }
 
 img[alt="spoiler"] {
   display: none; }
