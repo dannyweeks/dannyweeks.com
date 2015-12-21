@@ -1,0 +1,3 @@
+#! /bin/bash
+
+sculpin generate --watch --server --port=1989
