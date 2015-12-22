@@ -11,6 +11,7 @@ tags:
 
 In my job I have to maintain a few servers with multiple projects. We have the old Ubuntu 12.04 running special software, two Ubuntu 14.04 servers (one is prettier than the other) and then throw in our VPS too and thats just the servers at work! Jumping between all of these was becoming tedious; a different password to remember at every turn. I had to do something for the sake of my sanity.
 
+<!--more-->
 
 I first set up aliases. Then SSH to replace the need for passwords. This worked fine but all it did was save me the need to type the full SSH command. I still had to do what ever I was doing which often was something I had done time and time again: look at server logs or [run a deployment script][deploy] etc.
 

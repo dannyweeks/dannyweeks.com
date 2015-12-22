@@ -1,3 +1,14 @@
 {% macro featured_preview(image) %}
     <img src="{{ thumbnail(image, 500, null, true) }}" alt=""/>
 {% endmacro %}
+
+{% macro excerpt(text) %}
+    {% set more_array =
+    text|split('<!--more-->', 2) %}
+
+    {% if more_array|length > 1 %}
+        {{ more_array[0]|raw|striptags }}
+    {% else %}
+        {{ text|raw|striptags|slice(0,200) }} &hellip;
+    {% endif %}
+{% endmacro %}

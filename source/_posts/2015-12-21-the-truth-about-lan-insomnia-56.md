@@ -9,6 +9,8 @@ tags:
 ---
 An extended weekend with a room full of gamers. Stereotype would predict that room is full of a room full of fat, greasy haired, spotty faced male teenage virgins. This is so far from the truth its laughable.
 
+<!--more-->
+
 I have always been intrigued by these type of events. It's hard to actually think about what you ACTUALLY do for a whole weekend! Surely you don't play all weekend! So what the fuck do you do? I want to shed some light on what it's really like to attend a LAN gaming festival. 
 
 I have been to three [Insomnia](http://insomniagamingfestival.com) events (i53, i55, i56) so far and feel that I have had enough exposure to the different aspects to do it justice.

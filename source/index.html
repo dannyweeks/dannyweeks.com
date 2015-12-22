@@ -6,6 +6,7 @@ pagination:
 use:
     - posts
 ---
+{% import '_macros.twig' as m %}
 <div id="masonry-container" class="row small-up-1 medium-up-2 large-up-3">
     {% for post in page.pagination.items %}
     <div class="column">
@@ -41,7 +42,7 @@ use:
                     </small>
                 </h4>
                 <p>
-                    {{ post.blocks.content|raw|striptags|slice(0,200) }} &hellip;
+                    {{ m.excerpt(post.blocks.content) }}
                 </p>
                 <p>
                     <a href="{{ post.url }}" class="button hollow small">
