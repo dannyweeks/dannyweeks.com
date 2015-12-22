@@ -1,18 +1,12 @@
 {
-    "name": "sculpin/blog-skeleton",
-    "description": "A Skeleton for a Sculpin Based Blog",
-    "type": "sculpin-skeleton",
+    "name": "dannyweeks/dannyweeks.com",
+    "description": "Personal Website using Sculpin",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dragonfly Development Inc.",
-            "email": "info@dflydev.com",
-            "homepage": "http://dflydev.com"
-        },
-        {
-            "name": "Beau Simensen",
-            "email": "beau@dflydev.com",
-            "homepage": "http://beausimensen.com"
+            "name": "Danny Weeks",
+            "email": "danny@dannyweeks.com",
+            "homepage": "http://dannyweeks.com"
         }
     ],
     "require": {
@@ -22,7 +16,8 @@
         "components/foundation": "~6.0.4",
         "components/masonry": "3.2.2",
         "components/font-awesome": "4.5.0",
-        "cocur/slugify": "1.4.*"
+        "cocur/slugify": "1.4.*",
+        "beryllium/icelus": "*"
     },
     "config": {
         "component-dir": "source/components"

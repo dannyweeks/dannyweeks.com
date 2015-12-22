@@ -13,7 +13,7 @@ use:
         <article class="article-card text-center">
             <a href="{{ post.url }}">
                 {% if post.featured_image %}
-                    {% include 'featured-image' with {'post': post} %}
+                    {% include 'featured-image-preview' with {'post': post} %}
                 {% else %}
                     <div class="no-image"></div>
                 {% endif %}

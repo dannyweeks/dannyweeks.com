@@ -6,6 +6,7 @@ class SculpinKernel extends \Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKer
     {
         return array(
             'Cocur\Slugify\Bridge\Symfony\CocurSlugifyBundle',
+            'Beryllium\Icelus\IcelusBundle',
         );
     }
 }

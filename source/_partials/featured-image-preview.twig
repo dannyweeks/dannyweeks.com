@@ -1,0 +1,7 @@
+{% import '_macros.twig' as m %}
+
+{% if post.draft %}
+    {{ m.featured_preview("/images/uploads/drafts/" ~ post.featured_image) }}
+{% else %}
+    {{ m.featured_preview("/images/uploads/" ~ post.date|date('Y/m') ~ "/" ~ post.featured_image) }}
+{% endif %}
