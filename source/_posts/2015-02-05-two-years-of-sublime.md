@@ -2,10 +2,11 @@
 title: Two Years Of Sublime
 featured_image: sublimetext.png
 categories:
-    - Web Dev
+    - web-dev
 ---
 This month marks the two year anniversary of making the jump from Notepad++ to SublimeText. Reflecting upon the last two years, Sublime has made life so much easier. The plugins, shortcuts and just how it works helps productivity so much but is it time to much on?
 
+<!--more-->
 
 Sorry for that slight click bait first paragraph it was too tempting! In my eyes the main reason to use a text editor over bog standard Notepad is because it increases productivity & efficiency; therefore reducing frustration. Sublime gives a lot of flexibility and customisation to allow you to make it an extension of your body..let me elaborate..
 

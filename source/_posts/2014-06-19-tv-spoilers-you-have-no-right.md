@@ -2,9 +2,11 @@
 title: Spoilers – You have no right!
 featured_image: spoilers-featured.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 My number one pet hate is people spoiling things! Apparently a pet hate is a “minor annoyance” not to me. I hate this with a passion! If I could put one thing in Room 101 it would be this. Please note there are spoilers in this post but I have hidden them either with blurry text or a placeholder image; both of which you hover over to reveal the spoiler. The spoilers are Game of Thrones season 4 related.
+
+<!--more-->
 
 ## Spoilers
 

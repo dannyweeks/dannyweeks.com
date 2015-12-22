@@ -2,7 +2,7 @@
 title: SASS – Expanding My Horizons
 featured_image: scss.jpg
 categories:
-    - Web Dev
+    - web-dev
 tags:
     - compass
     - css
@@ -10,6 +10,8 @@ tags:
     - scss
 ---
 Isn’t CSS great. When you first learn about the powers of CSS you feel so empowered. Anything seems possible and everything is great. But that sensation can only last so long. Your markup looks so much cleaner using CSS and it makes styling your website much easier. However, since I past that honeymoon period of using CSS I have wished it could do more.
+
+<!--more-->
 
 ## What I aim to achieve
 

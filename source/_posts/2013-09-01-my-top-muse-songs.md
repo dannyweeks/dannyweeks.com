@@ -2,9 +2,11 @@
 title: My Top Muse Songs
 featured_image: muse.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 All of them </end blog post>. Ok that’s cheating but it’s true. I love them all, I can listen start to finish and not have to skip one. So I am going to break it down in to albums and give my top two from each album…to create the super album.
+
+<!--more-->
 
 ## Showbiz
 - Showbiz

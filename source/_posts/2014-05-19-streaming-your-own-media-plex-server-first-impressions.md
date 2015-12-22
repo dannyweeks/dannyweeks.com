@@ -2,15 +2,16 @@
 title: Streaming your own media: Plex server first impressions
 featured_image: plex-pic.jpg
 categories:
-    - My Thoughts
-    - Film TV
+    - my-thoughts
+    - film-tv
 tags:
-    - media server
+    - media-server
     - plex
     - streaming
 ---
 I have heard the name “Plex” thrown around a few times recently but never thought to look into it. My mentality is there is too much out there to know everything so if I need it I will stumble upon it – then I will learn all about it. Well this just recently happened with Plex.
 
+<!--more-->
 
 Before I go in to what Plex is I will tell you how I have always watched things I have downloaded. The process is pretty simple, download a film or TV show then copy it on to a USB stick, plug it into the PS3 or DVD player and watch it. This has always been the way. I have started getting sick of this. Now it is more common to only have bluray rips of films meaning the file size is close to a gigabyte the copy time is slower than the download time. I’m a patient guy but what gets me is when for some reason it copies over and get corrupt halfway through meaning I have to copy it all over again. My initial thought was to get a USB3 memory stick since my new PC has that capability which would copy three times as fast.
 

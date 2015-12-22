@@ -2,13 +2,15 @@
 title: Introducing my TV show marathon
 featured_image: battlestar-galactica-w.jpg
 categories:
-    - Film TV
+    - film-tv
 tags:
-    - Battlestar Galactica
-    - Firefly
+    - battlestar-galactica
+    - firefly
     - scifi
 ---
 I wanted to do this for a long time and what forced me to finally start it was when we moved to our new apartment and were without Internet for a couple of days.  My TV show marathon is essentially me watching my favourite TV shows from start to finish and trying to understand them more as well as see them again because they are the best ever!
+
+<!--more-->
 
 One thing that has made this marathon so easy is Netflix. Until we moved in to our new apartment I had always just shrugged it off thinking that I would never make use of it.. Oh I was mistaken! It isn’t just the fact that you have the library of films and TV shows legally but it’s the ease of watching that helps you to enjoy your show of choice! The fact that you can stop watching it on one device move to another room and pick up another Netflix device that knows what second you where up to makes watching hassle free!
 

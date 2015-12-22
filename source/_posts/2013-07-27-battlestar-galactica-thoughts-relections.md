@@ -2,12 +2,14 @@
 title: Battlestar Galactica, Thoughts & Relections
 featured_image: bsg.jpg
 categories:
-    - Film TV
+    - film-tv
 tags:
-    - Battlestar Galactica
+    - battlestar-galactica
     - scifi
 ---
 As I mentioned a couple of weeks ago in my blog post about my TV show marathon I am currently on Battlestar Galactica. Yesterday I finished watching the actual series. I can’t get across how much I enjoyed watching BSG again. My first watch through of BSG didn’t go as well. I got to around half way through season 3 and stopped, I think because I went on holiday and came back with no motivation to watch it. Like every good TV show there are slow parts or irritating parts and I think I was in one of them at the time.
+
+<!--more-->
 
 This time was much better, mainly I think because I was following a guide on what order to watch everything. I actually watched the mini series this time round which made the whole first season make much more sense. I do think that the first episode (called “33”) is one of my favourites, and possibly one of my favourite stand alone episodes of all time. I love the atmosphere this episode portrays, the fact that the Cylons are always coming they have to keep running, as weak and a tired as they are they keep working to keep the remaining human race alive. As a side note, if you enjoy this episode, there is a steam game called FTL (Faster Than Light). FTL is a great spaceship real-time simulation game where you are chased by rebels just like in ’33’.
 

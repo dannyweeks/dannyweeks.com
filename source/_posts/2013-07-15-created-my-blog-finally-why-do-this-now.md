@@ -1,9 +1,11 @@
 ---
 title: Created my blog… Finally! Why do this now?
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 I have finally created my blog after intending on doing it for a while. I wanted to launch it the same time as my portfolio but as I am so busy with my freelance jobs I don’t have the time at the moment to develop my website.
+
+<!--more-->
 
 My main intent on creating this blog is to document and share my thoughts in an organised manor. By no means am I a writer so don’t expect the best use of words but I do promise interesting content every time.
 

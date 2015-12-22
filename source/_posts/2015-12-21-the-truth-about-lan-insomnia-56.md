@@ -2,7 +2,7 @@
 title: The Truth About LAN - Insomnia 56
 featured_image: i56.jpg
 categories:
-    - Gaming
+    - gaming
 tags:
     - insomnia
     - lan

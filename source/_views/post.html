@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block content_wrapper %}
+{% import '_macros.twig' as m %}
 <div class="row">
     <div class="medium-8 medium-centered columns">
         <article class="main" id="{{ page.title|slugify }}">
@@ -17,7 +18,7 @@
                     {% if page.categories %}
                     in
                     {% for category in page.categories %}
-                    <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
+                    <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ m.deslug(category) }}</a>{% if not loop.last %}, {% endif %}
                     {% endfor %}
                     {% endif %}
                     on {{ page.date|date('jS M Y') }}

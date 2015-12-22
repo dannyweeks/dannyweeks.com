@@ -2,15 +2,17 @@
 title: Be the one percent
 featured_image: onepercent.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 tags: 
     - blog
     - blogging
-    - internet culture
-    - one percent
+    - internet-culture
+    - one-percent
     - wordpress
 ---
 > 1% of an Internet community are content creators. (Internet culture)
+
+<!--more-->
 
 ## What do I mean “Be the one percent”
 

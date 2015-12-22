@@ -2,9 +2,11 @@
 title: Happy First Birthday Blog!
 featured_image: cake-day.png
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 It is coming up to the birthday of my blog! I thought I’d celebrate this by looking back at some of my personal favourite blogs from the past year and look at my future goals for my blog. Read to the whole post and there will be cake.
+
+<!--more-->
 
 ## Failures and Successes
 

@@ -2,15 +2,17 @@
 title: Custom Website Data – WordPress Plugin
 featured_image: cwd.jpg
 categories:
-    - Web Dev
+    - web-dev
 tags:
-    - custom website data
+    - custom-website-data
     - cwd
     - plugin
     - wordpress
 ---
 > I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.
 > <cite>Bill Gates</cite>
+
+<!--more-->
 
 I don’t like to call it laziness it’s called being efficient.
 

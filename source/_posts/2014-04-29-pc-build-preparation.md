@@ -2,14 +2,15 @@
 title: PC Build Preparation
 featured_image: pc-prep.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 tags: 
-    - custom pc
+    - custom-pc
     - pc
-    - pc build
+    - pc-build
 ---
 I have been a gamer since the first Playsation controller was put into my hands (yes, I was late getting a console)! When I got my hands on Joint Operations I was hooked on PC gaming. This shown me how fun it was. For a while the PS3 took over PC gaming but I quickly realised that I was first and foremost a PC gamer.
 
+<!--more-->
 
 The first step in building a new PC is establishing a budget. It gives you some limitations but as I will talk about a little later you may as well ask someone to choose a random number! No matter what you say your budget is.. you will go over.
 

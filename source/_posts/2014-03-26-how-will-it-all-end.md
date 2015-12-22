@@ -2,9 +2,11 @@
 title: How will it all end?
 featured_image: end.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 > I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones. <cite>Albert Einstein</cite>
+
+<!--more-->
 
 Following recent events with Russia and the Ukraine it has had me wondering what would happen if things escalated so far that we would be witnesses (and unfortunately be involved in) World War 3 or another apocalyptic disaster.
 

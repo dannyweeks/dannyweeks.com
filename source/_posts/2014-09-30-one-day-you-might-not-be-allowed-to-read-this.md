@@ -2,12 +2,14 @@
 title: One Day You Might Not Be Allowed To Read This
 featured_image: anon-featured.png
 categories:
-    - My Thoughts
+    - my-thoughts
 tags:
     - censorship
-    - internet freedom
+    - internet-freedom
 ---
 Luckily I currently live somewhere where I can express my thoughts and opinions without punishment or any repercussions. I can do this any way I wish including publishing this online for you to read. The freedom the internet gives people is so powerful it has lead to revolutions including the [Twitter Revolution][twitter] in Egypt. Unfortunately this freedom seems to be slowly escaping us.
+
+<!--more-->
 
 [twitter]: http://en.wikipedia.org/wiki/Twitter_Revolution
 

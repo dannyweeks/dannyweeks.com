@@ -53,7 +53,7 @@ use:
                 <p class="categories">
                     Posted in
                     {% for category in post.categories %}
-                    <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
+                    <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ m.deslug(category) }}</a>{% if not loop.last %}, {% endif %}
                     {% endfor %}
                 </p>
                 {% endif %}

@@ -12,3 +12,7 @@
         {{ text|raw|striptags|slice(0,200) }} &hellip;
     {% endif %}
 {% endmacro %}
+
+{% macro deslug(slug) %}
+    {{ slug|replace('-', ' ')|title }}
+{% endmacro %}

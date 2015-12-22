@@ -2,9 +2,11 @@
 title: How will we be remembered?
 featured_image: golden-record.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 The question “How will I be remembered” does sometimes cross my mind. I would like to leave a mark on this planet as I am sure everyone wants to. So how will the whole of human kind be remembered?
+
+<!--more-->
 
 Like I said, I would love to leave a mark on this planet something to be remembered; a legacy if you like. A lot of people have done it, we all know them. The greats such as Einstein, Newton and Darwin just to name some off of the top of my head. These will never be forgotten; It kind of makes you feel quite small and inadequate comparing yourself to these undoubtedly great people.
 

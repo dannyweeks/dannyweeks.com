@@ -2,12 +2,14 @@
 title: Two Short Films You Should See
 featured_image: shorts.jpg
 categories:
-    - My Thoughts
-    - Film Tv
+    - my-thoughts
+    - film-tv
 tags:
-    - Short Film
+    - short-films
 ---
 It takes a lot to grip my attention when I am browsing the web thanks to reddit. If something doesn’t grab me quite quickly I end up either skipping through it or just moving on completely. That said; sometimes things really do grip me. I have come to realise that some Short Films are really gripping.
+
+<!--more-->
 
 Even though they are short they are sometimes fantastically made and much better than the crap out there in the box office! So without further a do here are some that you should certainly give the time of day!
 

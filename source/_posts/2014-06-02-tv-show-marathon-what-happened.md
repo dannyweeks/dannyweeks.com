@@ -2,10 +2,12 @@
 title: TV Show Marathon – What happened?
 featured_image: tv-matathon-soa.jpg
 categories:
-    - My Thoughts
-    - Film TV
+    - my-thoughts
+    - film-tv
 ---
 I’m going to hold my hands up right now and say It’s pretty pitiful the how many shows I have actually managed to tick off my initial list! Let’s review the list.
+
+<!--more-->
 
 - <del>Firefly</del>
 - <del>Battelstar Galactica</del>

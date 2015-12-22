@@ -4,7 +4,6 @@ title: Category Archive
 generator: [posts_category_index, pagination]
 pagination:
     provider: page.category_posts
-
 ---
 
 {% block head_meta %}
@@ -13,9 +12,11 @@ pagination:
 {% endblock %}
 
 {% block title %}{{ page.title }} "{{ page.category }}"{% endblock %}
+
 {% block content %}
+{% import '_macros.twig' as m %}
 {% set year = '0' %}
-<h2>{{ page.category|title }}</h2>
+<h2>{{ m.deslug(page.category) }}</h2>
 {% for post in page.pagination.items %}
 {% set this_year %}{{ post.date | date("Y") }}{% endset %}
 {% if year != this_year %}

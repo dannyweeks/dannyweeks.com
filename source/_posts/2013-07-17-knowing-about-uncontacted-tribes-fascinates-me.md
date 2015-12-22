@@ -2,11 +2,12 @@
 title: Knowing about uncontacted tribes facinates me
 featured_image: Índios-Isolados-4.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 
 I can’t explain easily why something draws me to wanting to know more about these tribes. Before I try to put into words what is going on in my head I want to explain a little more about them. Uncontacted tribes are communities of people they have had no physical contact with the world as we know it. There are about 100 of known uncontacted tribes in the world, some of which are hostile to outsiders and some just hide when confronted. The majority of these tribes range in population from 50 to 300 people, obviously these figures are best guess as there is no way we could monitor them so precisely without contact.
 
+<!--more-->
 
 Although they are uncontacted they must have some knowledge that we exist…or at least there is something beyond the boundaries of their home land. This is proven by the fact the majority of them will have seen aircraft of some description fly over them and there are some pictures where they have metal objects such as blades and pots.
 

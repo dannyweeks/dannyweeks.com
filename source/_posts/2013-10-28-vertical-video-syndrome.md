@@ -2,11 +2,12 @@
 title: Vertical Video Syndrome
 featured_image: vvs.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 
 This is a problem and it needs to be recognised. With just about everyone having mobile phones with good cameras more and more people are capturing amazing things and uploading them for the rest of the world to see. The problem is sometimes only half of the action is caught due the the person recording holding their phone vertically.
 
+<!--more-->
 
 I watch videos online of pretty much anything so I have seen it all…most of the time..when the phone is held the right way otherwise it is just I tall vertical angle of what is going on. This is a problem that people just need to be educated about.
 

@@ -2,13 +2,15 @@
 title: Simple Custom Website Data Plugin Update
 featured_image: cwd-1.2.jpg
 categories:
-    - Web Dev
+    - web-dev
 tags:
-    - custom website data
+    - custom-website-data
     - cwd
     - wordpress
 ---
 It has been well over a month since I introduced my first plugin called Custom Website Data also known as Simple Custom Website Data (I’ll explain that soon!). There has been many advances in CWD since it’s first version such some updates and now being publish on WordPress.org.
+
+<!--more-->
 
 ## Now available on WordPress.org
 

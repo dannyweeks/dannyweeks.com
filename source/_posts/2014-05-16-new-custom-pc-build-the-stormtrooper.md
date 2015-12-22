@@ -2,14 +2,11 @@
 title: New Custom PC Build – The Stormtrooper
 featured_image: stormtrooper-featured.jpg
 categories:
-    - My Thoughts
-tags:
-    - blog
-    - blogging
-    - internet culture
-    - wordpress
+    - my-thoughts
 ---
 Just like all famous swords are named – all great PCs should be named too. When the case arrived and I showed Helen she instantly said it looks like a Stormtrooper and so it will ever be know as the Stormtrooper. Now for the birth of the Stormtrooper.
+
+<!--more-->
 
 ![](/images/uploads/2014/04/jbHbyMY.jpg)
 

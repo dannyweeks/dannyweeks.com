@@ -2,12 +2,13 @@
 title: Reapers the new hope for Drones after Psycho – Muse
 featured_image: muse-drones.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 tags:
     - muse
 ---
 When I heard Muse would be releasing the first single I really tried to not over hype it – I do this with every thing even holidays. I just let them roll up on me and I have a nice surprise. Unfortunately I let my love for Muse get the best of me and I got super hyped for the new single Psycho. When I heard it I was quite deflated but I have put a positive spin on it.
 
+<!--more-->
 
 I absolutely love Muse, having followed them around the country and even watched them in a Irish park [in the pouring rain]! What I love about them is their albums/songs have a theme behind them. They tell a story with the style of the music and the lyrics. Because of this there isn’t a Muse song I have to skip.
 

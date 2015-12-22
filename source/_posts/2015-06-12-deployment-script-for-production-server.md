@@ -2,12 +2,13 @@
 title: Deployment Script For Production Server
 featured_image: deploy.jpg
 categories:
-    - Web Dev
+    - web-dev
 tags:
     - devops
 ---
 For a while I have wanted to have a script that deploys updates to a website cleanly and easily. I recently found the time to create such a script and am pretty happy with the first version! Having not really spent any time with creating bash scripts it took a bit of googling research to get started.
 
+<!--more-->
 
 Deploying updates to the website requires a number of tasks to ensure it is ready to be used. Our workflow involves using a Git repository to host our Laravel app. Database migrations to keep our databases in sync. Composer and bower to ensure our respective vendor packages are installed and up to date and SCSS as our preprocessor of choice.
 

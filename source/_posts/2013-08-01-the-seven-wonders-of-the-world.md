@@ -2,10 +2,12 @@
 title: The ‘Seven Wonders Of The World’
 featured_image: machu-picchu.jpg
 categories:
-    - My Thoughts
+    - my-thoughts
 ---
 
 Ever since I was a child I have been obsessed with the Wonders of the World. There is a lot of confusion around what the wonders of the world are. Have no fear, I will clear them up in a jiffy! The original wonders of the world are often referred to as the ‘Ancient Wonders of the World’ and are as follows:
+
+<!--more-->
 
 - The Colossus of Rhodes
 - The Great Pyramid of Giza

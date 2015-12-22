@@ -4,10 +4,15 @@ title: Categories
 use:
     - posts_categories
 ---
+{% import '_macros.twig' as m %}
 <h2>Categories</h2>
 
 <div>
-{% for category,posts in data.posts_categories %}
-<a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>
-{% endfor %}
+    <ul>
+        {% for category,posts in data.posts_categories %}
+        <li>
+            <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ m.deslug(category) }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
