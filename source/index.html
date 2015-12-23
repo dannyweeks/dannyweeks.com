@@ -42,7 +42,11 @@ use:
                     </small>
                 </h4>
                 <p>
+                {% if post.excerpt %}
+                    {{ post.excerpt }}
+                {% else %}
                     {{ m.excerpt(post.blocks.content) }}
+                {% endif %}
                 </p>
                 <p>
                     <a href="{{ post.url }}" class="button hollow small">
