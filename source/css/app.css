@@ -5196,13 +5196,6 @@ h1 {
       color: #CF000F; }
     .article-card .card-content p {
       color: #757D75; }
-    .article-card .card-content a i {
-      font-weight: 300;
-      color: #757D75;
-      margin: 0 .5rem;
-      padding: 5px 7px 5px 7px;
-      border: 1px solid #757D75;
-      border-radius: 50%; }
     .article-card .card-content .category-icon {
       border-radius: 50%;
       margin-top: -4rem; }
@@ -5215,6 +5208,9 @@ blockquote {
   margin: 0 0 1rem 15px; }
   blockquote p {
     font-style: italic; }
+
+.tag {
+  cursor: pointer; }
 
 header#header {
   margin-bottom: 1.25rem;
