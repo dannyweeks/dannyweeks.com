@@ -99,7 +99,7 @@ img[alt^="gallery-"] {
 }
 ```
 
-The desired 'API' I wanted was to markup the. Note the '1' I knew I would need to accommodate for multiple galleries on one pages due to an already published blog about different [7 Wonders of the World][wow]. 
+The desired API I wanted was to markup galleries with `gallery-1` as the alt tag. Note the '1', I knew I would need to accommodate for multiple galleries on one pages due to an already published post about different version of the [7 Wonders of the World][wow]. 
 
 [wow]: /blog/2013/08/01/the-seven-wonders-of-the-world
 
