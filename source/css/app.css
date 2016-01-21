@@ -5338,3 +5338,6 @@ img[alt^="gallery-"] {
 
 .reveal, .close-button {
   outline: none; }
+
+pre code {
+  overflow: scroll; }

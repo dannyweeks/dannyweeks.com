@@ -60,3 +60,7 @@ $fa-font-path: "/components/font-awesome/fonts";
 .reveal, .close-button{
   outline: none;
 }
+
+pre code {
+  overflow: scroll;
+}
