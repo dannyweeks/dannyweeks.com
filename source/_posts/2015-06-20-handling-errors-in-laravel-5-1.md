@@ -21,13 +21,7 @@ I first started using Laravel at version 4 and got used to the detailed yet pret
 
 Most of our changes are in `app/Exceptions/Handler.php` so let’s jump in there make some changes, first adding a method then making some changes to the `render()` method.
 
-First, lets add the following method to the `Handler` class.
-
-```php
-Most of our changes are in app/Exceptions/Handler.php so let’s jump in there make some changes, first adding a method then making some changes to the render() method.
-
-First, lets add the following method to the Handler class.
-```
+First, add the following method to the `Handler` class.
 
 renderHttpExceptionView() adds the ability to have a default response to any HTTP error that doesn’t have a specific view.
 
