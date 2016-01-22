@@ -11,6 +11,9 @@ h1{
   text-align: center;
 }
 
+.main h2 {
+  border-bottom: 1px solid lighten($lightBackgroundColor, 45%);
+}
 
 .article-card {
   border: 1px solid #d7d7d7;
