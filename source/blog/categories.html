@@ -5,14 +5,16 @@ use:
     - posts_categories
 ---
 {% import '_macros.twig' as m %}
-<h2>Categories</h2>
 
-<div>
-    <ul>
-        {% for category,posts in data.posts_categories %}
-        <li>
-            <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ m.deslug(category) }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+<div class="row">
+    <div class="medium-8 medium-centered columns">
+        <h2>Categories</h2>
+        <ul>
+            {% for category,posts in data.posts_categories %}
+            <li>
+                <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ m.deslug(category) }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
