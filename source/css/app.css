@@ -5288,7 +5288,8 @@ header#header {
   .web-dev-icon .main-icon:before {
     content: ""; }
 
-.film-tv-icon .background-icon { }
+.film-tv-icon .background-icon {
+  color: #8E44AD; }
 
 .film-tv-icon .main-icon { }
   .film-tv-icon .main-icon:before {
@@ -5309,7 +5310,7 @@ header#header {
     content: ""; }
 
 .gaming-icon .background-icon {
-  color: #212121; }
+  color: #2c3e50; }
 
 .gaming-icon .main-icon {
   color: #FFF176; }
