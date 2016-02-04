@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "197c7e3966559dd8a92b0d9927ef4c29",
+    "hash": "566997fc9d2e6ab45ba60038324d7cab",
     "packages": [
         {
             "name": "beryllium/icelus",
