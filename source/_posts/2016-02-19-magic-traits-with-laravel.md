@@ -7,8 +7,6 @@ tags:
     - php
 featured_image: magic.jpg
 ---
-<p class="text-center"><small><a href="http://d4m.deviantart.com/art/Its-Magic-90587575">Featured image credit to user d4m via Deviant Art </a></small></p>
-
 The traditional use of traits is to reduce code duplication by extracting common methods into its own 'class'. The trait can then be used in multiple classes to add some functionality.
 
 To give a brief example, let's think about a spaceship class, specifically the Battlestar Galactica...
@@ -104,3 +102,5 @@ Now, this could always be done manually. You add the trait and then call the met
 Once I had discovered this way of improving a classes API by using this 'Magic Trait' pattern I decided to implement it in one of my own projects. Taking inspiration from Laravel's TestCase my [Base Repository][Base Repository] now allows a developer to drop a trait in and have a repository throw exceptions or cache it's results but more on that when I release Version 1 soon!
 
 [Base Repository]: https://github.com/dannyweeks/laravel-base-repository
+
+<p><small><a href="http://d4m.deviantart.com/art/Its-Magic-90587575">Featured image credit to user d4m via Deviant Art </a></small></p>
