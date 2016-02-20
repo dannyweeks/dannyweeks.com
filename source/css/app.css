@@ -5177,7 +5177,12 @@ h1, h2, h3, h4 {
   color: #3e5771; }
 
 h1 {
+  font-size: 3rem;
   text-align: center; }
+
+h2 {
+  font-size: 2.25rem;
+  margin: 1.7rem 0 1.2rem 0; }
 
 .main h2 {
   border-bottom: 1px solid #bbcada; }
@@ -5339,12 +5344,6 @@ img[alt="spoiler"] {
 img[alt^="gallery-"] {
   width: 150px;
   display: inline-block; }
-
-h1 {
-  font-size: 3rem; }
-
-h2 {
-  font-size: 2.25rem; }
 
 .reveal, .close-button {
   outline: none; }
