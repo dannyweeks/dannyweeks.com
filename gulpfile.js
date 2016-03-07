@@ -16,6 +16,7 @@ elixir(function(mix) {
         .exec('sculpin generate', ['./source/**/*', '!./source/_assets/**/*'])
         .browserSync({
             reloadDelay: 2500,
+            reloadDebounce: 2500,
             injectChanges: false,
             server: {
                 baseDir: 'output_dev'
