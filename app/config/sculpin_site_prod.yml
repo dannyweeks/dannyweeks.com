@@ -2,3 +2,4 @@ imports:
 - sculpin_site.yml
 disqus:
     shortname: dannnyweeeks
+use_analytics: true

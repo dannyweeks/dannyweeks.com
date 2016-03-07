@@ -31,7 +31,7 @@ The bash script was a good start; it even had a little interface but it lacked t
 
 I have had some exposure to [Symfony’s Console Component][symfony] via Laravel’s console commands but never used it directly so this was my chance to have a little tinker! For the config, I decided to go with json as I, along with most devs nowadays love working with it! After I was happy with the functionality and features the first version of [Mersey][mersey] and my first package was released to the world!
 
-![](/images/uploads/2015/11/server-bash-script.png)
+![](/images/uploads/2015/11/project.gif)
 > Quickly jump into a project root.
 
 Multiple servers can be stored in the config file with servers having optional projects and projects having optional scripts that can be run on them. A more detailed explanation of this and how to install it can be found in the [readme] of Mersey.

@@ -16,26 +16,38 @@
                 <p>
                     Posted
                     {% if page.categories %}
-                    in
-                    {% for category in page.categories %}
-                    <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ m.deslug(category) }}</a>{% if not loop.last %}, {% endif %}
-                    {% endfor %}
+                        in
+                        {% for category in page.categories %}
+                            <a href="{{ site.url }}/blog/categories/{{ category|slugify }}">{{ m.deslug(category) }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
                     {% endif %}
                     on {{ page.date|date('jS M Y') }}
                 </p>
                 {% if page.tags %}
-                <p class="tags">
-                    Tags:
-                    {% for tag in page.tags %}
-                    {% include 'tag' with {'tag': tag} %}
-                    {% endfor %}
-                </p>
+                    <p class="tags">
+                        Tags:
+                        {% for tag in page.tags %}
+                            {% include 'tag' with {'tag': tag} %}
+                        {% endfor %}
+                    </p>
                 {% endif %}
             </header>
-            {% if page.featured_image%}
-            <div class="featured-image text-center">
+            {% if page.featured_image %}
+            <div class="featured-image">
                 <p>
-                    {% include 'featured-image' with {'post': page} %}
+                    <div class="text-center">
+                        {% include 'featured-image' with {'post': page} %}
+                    </div>
+                    {% if page.featured_image_credit_text and page.featured_image_credit_url %}
+                        <span class="featured-image-credit">
+                            <small>
+                                Image credit:
+                                <a href="{{ page.featured_image_credit_url }}">
+                                    {{ page.featured_image_credit_text }}
+                                </a>
+                            </small>
+                        </span>
+                    {% endif %}
                 </p>
             </div>
             {% endif %}

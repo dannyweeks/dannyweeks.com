@@ -36,11 +36,22 @@
                         <i class="fa fa-twitter fa-2x"></i>
                     </a>
                 </p>
-                <p>
-                    <small>
-                        &copy; {{ "now"|date("Y") }} {{ site.title }}
-                    </small>
-                </p>
+                <div class="row">
+                    <div class="small-6 columns">
+                        <p class="text-right">
+                            <small>
+                                &copy; {{ "now"|date("Y") }} {{ site.title }} <br/>
+                            </small>
+                        </p>
+                    </div>
+                    <div class="small-6 columns">
+                        <p class="text-left">
+                            <small>
+                                <i class="fa fa-power-off"></i> Powered by <a href="https://sculpin.io">Sculpin</a>
+                            </small>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

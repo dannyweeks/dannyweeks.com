@@ -56,7 +56,11 @@ $fa-font-path: "/components/font-awesome/fonts";
 @import 'partials/spoilers';
 @import 'partials/gallery';
 
-
 .reveal, .close-button{
   outline: none;
+}
+
+pre code {
+  overflow: scroll;
+  margin-bottom: 25px;
 }
