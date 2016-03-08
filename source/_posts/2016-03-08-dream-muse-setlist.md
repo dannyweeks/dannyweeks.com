@@ -42,7 +42,7 @@ Let's set the scene. The lights go off. It's pitch black. Silence. Then the firs
 
 ## WHAT! NO KoC?!
 
-This has to be address as I think the majority of people would have it as their finale. I feel like it has become a bit cliché that the setlist ends on Knights of Cydonia and everyone has a good old fashioned mosh. I love the song but would like to see a different end to the show if I had my way.
+This has to be addressed as I think the majority of people would have it as their finale. I feel like it has become a bit cliché that the setlist ends on Knights of Cydonia and everyone has a good old fashioned mosh. I love the song but would like to see a different end to the show if I had my way.
 
 ## What would you change?
 It's tough because there isn't a song I dislike so choosing the ones I would want at a gig is what I have gone for. 
