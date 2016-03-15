@@ -64,3 +64,21 @@ pre code {
   overflow: scroll;
   margin-bottom: 25px;
 }
+.external-link {
+//  padding-right: 5px;
+  &:after {
+    @extend .fa;
+    content: "\f08e";
+    font-size: 0.7em;
+    position: absolute;
+    color: darkgrey;
+    display: none;
+    margin-top: -2px;
+    margin-left: -3px;
+  }
+
+  &:hover:after {
+    display: inline-block;
+  }
+}
+

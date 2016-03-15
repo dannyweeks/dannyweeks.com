@@ -22,3 +22,4 @@ $.expr[':'].external = function(obj){
 };
 
 $('a:external').attr('target', '_blank');
+$('a:external').addClass("external-link");
