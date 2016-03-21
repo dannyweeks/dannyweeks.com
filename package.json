@@ -4,7 +4,7 @@
   "description": "dannyweeks.com sculpin site.",
   "main": "gulpfile.js",
   "devDependencies": {
-      "laravel-elixir": "^4.2.0"
+    "laravel-elixir": "^4.2.0"
   },
   "scripts": {
     "start": "gulp"

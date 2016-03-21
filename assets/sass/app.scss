@@ -2,6 +2,7 @@
 
 @import 'settings';
 @import '../../source/components/foundation/scss/foundation';
+@import '../../source/components/highlightjs/styles/monokai';
 
 $fa-font-path: "/components/font-awesome/fonts";
 @import '../../.sculpin/components/font-awesome/scss/font-awesome';
@@ -46,6 +47,7 @@ $fa-font-path: "/components/font-awesome/fonts";
 //@include motion-ui-transitions;
 //@include motion-ui-animations;
 
+@import 'partials/fonts';
 @import 'partials/variables';
 @import 'partials/global';
 @import 'partials/header';
