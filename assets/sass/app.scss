@@ -66,6 +66,7 @@ pre code {
   overflow: scroll;
   margin-bottom: 25px;
 }
+
 .external-link {
   &:after {
     @extend .fa;
@@ -83,3 +84,4 @@ pre code {
   }
 }
 
+@import 'partials/_media-queries-base';

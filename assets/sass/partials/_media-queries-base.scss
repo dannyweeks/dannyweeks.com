@@ -1,0 +1,45 @@
+// _________ Small
+
+@include breakpoint(small) {
+	@import "media-quieries/small-up";
+}
+
+@include breakpoint(small only) {
+    @import "media-quieries/small-only";
+}
+
+// _________ Medium
+
+@include breakpoint(medium) {
+    @import "media-quieries/medium-up";
+}
+
+@include breakpoint(medium only) {
+    @import "media-quieries/medium-only";
+}
+
+// _________ Large
+
+@include breakpoint(large) {
+    @import "media-quieries/large-up";
+}
+
+@include breakpoint(large only) {
+    @import "media-quieries/large-only";
+}
+
+@include breakpoint(xlarge) {
+    @import "media-quieries/xlarge-up";
+}
+
+@include breakpoint(xlarge only) {
+    @import "media-quieries/xlarge-only";
+}
+
+@include breakpoint(xxlarge) {
+    @import "media-quieries/xxlarge-up";
+}
+
+@include breakpoint(xxlarge only) {
+    @import "media-quieries/xxlarge-only";
+}
