@@ -5,7 +5,7 @@ categories:
 featured_image: winter-is-coming-apparently.jpg
 ---
 
-As the season approaches where TV return to our screens it has made me think about what I am excited to watch and what has become more of a chore.
+As the season approaches where TV returns to our screens it has made me think about what I am excited to watch and what has become more of a chore.
 
 <!--more-->
 
