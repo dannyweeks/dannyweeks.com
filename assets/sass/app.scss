@@ -84,4 +84,9 @@ pre code {
   }
 }
 
+figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
 @import 'partials/_media-queries-base';

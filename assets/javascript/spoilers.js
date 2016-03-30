@@ -4,7 +4,7 @@
         spoilerImage.addClass('spoiler-image');
 
         spoilerImage.attr('data-src', spoilerImage.attr('src'));
-        spoilerImage.attr('src', '/images/spoiler.jpg')
+        spoilerImage.attr('src', '/images/spoiler.jpg');
 
         spoilerImage.attr('alt', '');
     });

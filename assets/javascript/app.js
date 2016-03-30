@@ -14,7 +14,7 @@ $(window).load(function () {
 
 });
 
-$.expr[':'].external = function(obj){
+$.expr[':'].external = function (obj) {
     return !obj.href.match(/^mailto\:/)
         && (obj.hostname != location.hostname)
         && !obj.href.match(/^javascript\:/)
@@ -23,3 +23,13 @@ $.expr[':'].external = function(obj){
 
 $('a:external').attr('target', '_blank');
 $('a:external').addClass("external-link");
+
+
+$('img[alt^="caption:"]').each(function (key, image) {
+    image = $(image);
+    var alt = image.attr('alt');
+    var caption = alt.substring(8);
+    image.attr('alt', caption);
+    image.wrap("<figure></figure>");
+    image.after("<figcaption>" + caption + "</figcaption>");
+});
