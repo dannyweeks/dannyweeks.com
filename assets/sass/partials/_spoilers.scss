@@ -1,16 +1,21 @@
-img[alt="spoiler"]{
+img[alt="spoiler"] {
   display: none;
 }
 
-.spoiler-image{
+.spoiler-image {
   cursor: pointer;
 }
 
-.spoiler{
+.spoiler {
   color: $body-font-color;
   background-color: $body-font-color;
   &:hover{
     background-color: white;
     color: $body-font-color;
   }
+}
+
+.spoiler-disabled {
+    background-color: $body-background;
+    color: $body-font-color;
 }

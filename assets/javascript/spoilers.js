@@ -21,4 +21,8 @@
         flipImgSrc($(this));
     });
 
+    $('.spoiler-toggle').on('click', function () {
+        $('.spoiler').toggleClass('spoiler-disabled');
+    });
+
 })();
