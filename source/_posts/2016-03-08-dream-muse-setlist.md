@@ -67,11 +67,11 @@ Don't forget, you can listen to my setlist on my [Youtube][setlist] playlist.
 [Resistance]: https://www.youtube.com/watch?v=3oNm-XDEwdc
 [Showbiz]: https://www.youtube.com/watch?v=QNdiNsOlqaQ
 [The Small Print]: https://www.youtube.com/watch?v=-1_Ri9dms8o
-[The Globalist]: https://www.youtube.com/watch?v=aGdO_4QN7GU
+[The Globalist]: https://www.youtube.com/watch?v=4qagaaZfwXA
 
 [The 2nd Law: Isolated System]: https://www.youtube.com/watch?v=VXPoJAyeF8k
 [In Your World]: https://www.youtube.com/watch?v=9h1B-ydAIBk
 [Stockholm Syndrome]: https://www.youtube.com/watch?v=gXN9acC9edU
-[Bliss]: https://www.youtube.com/watch?v=eMqsWc8muj8
+[Bliss]: https://www.youtube.com/watch?v=iAmCXUh-Aos
 
 [setlist]: https://www.youtube.com/playlist?list=PLhhcDa9jtYeR_veNQV20maXyummv1EfEc
